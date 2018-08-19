@@ -15,8 +15,8 @@ public class Base {
 	
 	public Base() throws IOException{
 		prop=new Properties();
-		FileInputStream is=new FileInputStream("D:\\SeleniumQAProject\\Way2automationQA"
-				+ "\\src\\main\\java\\com\\qa\\way\\config\\config.properties");
+		FileInputStream is=new FileInputStream("D:\\SeleniumQAProject\\MavenPOM\\src\\main\\java\\"
+				+ "com\\qa\\way\\config\\config.properties");
 		prop.load(is);
 	}
 	
